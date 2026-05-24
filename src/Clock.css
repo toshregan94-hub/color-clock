@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1a1a2e;
+}
+
+
+.clock-container {
+  text-align: center;
+  background-color: #16213e;
+  padding: 40px 60px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.clock-title {
+  color: #e94560;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+
+.clock-time {
+  color: #0f3460;
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+  color: #4fc3f7;
+}
+
+
+.clock-date {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
